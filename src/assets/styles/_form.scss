@@ -1,0 +1,37 @@
+.form-wrap {
+    margin: auto;
+}
+
+::placeholder {
+    color: $font-color;
+    opacity: 0.5;
+}
+
+.input-control {
+    margin-bottom: 15px;
+}
+
+.input-field {
+    color: $font-color;
+    height: 40px;
+    border: none;
+    background-color: #fff;
+    padding: 0 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    border: 2px solid #fff;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    border: 1px solid #EBF3FA;
+    width: 100%;
+
+    &:focus {
+        border-color: $secondary;
+    }
+}
+
+.form-action {
+    padding-top: 10px;
+}
